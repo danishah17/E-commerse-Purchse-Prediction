@@ -1,19 +1,17 @@
-# E-commerse-Purchse-Prediction
-A machine learning pipeline to predict whether an e-commerce order will be completed or cancelled using transaction-level features. Includes a Streamlit app for real-time predictions.
-# 🛒 E-Commerce Purchase Prediction
+# E-Commerce Purchase Prediction
 
 Predict whether a retail transaction will end in **completion or cancellation** using historical e-commerce data.
 
 ---
 
-## 📦 Dataset
+# Dataset
 
 - **Source**: [Kaggle - Online Retail Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)
 - 500,000+ transactions from a UK-based online retailer (2010–2011)
 
----
 
-## 🎯 Objective
+
+## Objective
 
 Build a machine learning pipeline to:
 - Analyze patterns in cancelled vs. completed orders
@@ -23,7 +21,7 @@ Build a machine learning pipeline to:
 
 ---
 
-## 🔍 Features Used
+## Features Used
 
 | Feature            | Description                                 |
 |--------------------|---------------------------------------------|
@@ -42,7 +40,7 @@ Build a machine learning pipeline to:
 
 ---
 
-## 📊 Model Performance
+## Model Performance
 
 - **Model**: `StackingClassifier (XGBoost + RF)`
 - **Evaluation Metrics**:
@@ -52,4 +50,4 @@ Build a machine learning pipeline to:
 
 ![Confusion Matrix](confusion%20matrix.png)
 
-✅ The model classifies both completed and cancelled orders **perfectly** on the test set.
+The model classifies both completed and cancelled orders **perfectly** on the test set.
